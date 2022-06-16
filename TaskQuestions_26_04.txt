@@ -1,0 +1,29 @@
+Task on Single Dimensional Arrays (Assigned on 26-04-2022)
+
+1. Write a Java program for sorting arrays.
+
+* Create an encapsulated class named DataStorage, in which create a integer variable named lengthOfTheArray and then create three integer arrays named unsortedArray, arraySortedInAscendingOrder and arraySortedInDescendingOrder. Create setter and getter methods for the variable and arrays.
+
+* Create a class named ArraySorter, in which create a method named getTheArrayElements(), in which get the length of the array and also the unsorted array elements from the user and store it in lengthOfTheArray variable and unsortedArray using setters.
+
+* Create the method named sortTheArrayInAscendingOrder() in ArraySorter class and use the getter method to get the unsortedArray and write the logic to sort the array in ascending order without using the inbuilt sort() method and store the sorted array in arraySortedInAscendingOrder using setter.
+
+* Create a method named sortTheArrayInDescendingOrder() in ArraySorter class and use the getter method to get the unsortedArray and write the logic to sort the array in descending order and store the sorted array in arraySortedInDescendingOrder using setter.
+
+* Create a method named displayTheArraySortedInAscendingOrder() and use the getter to get the array and print it in console.
+
+* Create a method named displayTheArraySortedInDescendingOrder() and use the getter to get the array and print it in console.
+
+* Create a class named Runner, in which create a main method and call all the five methods to perform the operation of array sorting and display both the sorted arrays in the format.
+
+Expected Output Format:
+Unsorted Array:
+5 7 1 9 4
+Array Sorted in Ascending Order:
+1 4 5 7 9
+Array Sorted in Descending Order:
+9 7 5 4 1
+
+(Note: You guys can change the array elements to different numbers, but follow the format of the output as mentioned above.)
+
+* Research on possible exceptions in the given case and handle the possible exceptions using try and catch blocks and print the meaningful error message in the catch block.
